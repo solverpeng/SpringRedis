@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc47e1ee-f3e6-44be-8365-52500eb413d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fastjson-1.1.36.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jedis_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringRedis.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/spring-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/bean/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/cache/CacheConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/cache/CacheJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/cache/CacheObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/cache/ICacheClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/cache/RedisPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/cache/SerializeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/cache/impl/RedisClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/redis/RedisComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/redis/test/JsonTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/redis/test/RedisTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/util/CacheUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/solverpeng/util/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/redis.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -121,11 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RedisClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/solverpeng/cache/impl/RedisClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.90799">
+            <state vertical-scroll-proportion="0.0">
               <caret line="391" column="0" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/redis.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -240,81 +226,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solverpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringRedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringRedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solverpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringRedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringRedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solverpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringRedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringRedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solverpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
+              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,13 +249,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea\solverpeng\SpringRedis\config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea\solverpeng\SpringRedis\sql" />
       <recent name="E:\workspace\idea\solverpeng\SpringRedis\lib" />
       <recent name="E:\workspace\idea\solverpeng\SpringRedis\src\com\solverpeng\cache" />
       <recent name="E:\workspace\idea\solverpeng\SpringRedis\src\com\solverpeng\util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\idea\solverpeng\SpringRedis\config" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RedisTest.testGetRedisList">
@@ -713,8 +626,15 @@
       <workItem from="1483500762758" duration="6185000" />
       <workItem from="1483517352137" duration="8666000" />
       <workItem from="1483577962188" duration="608000" />
-      <workItem from="1483581389805" duration="3802000" />
+      <workItem from="1483581389805" duration="4077000" />
     </task>
+    <task id="LOCAL-00001" summary="RedisTest">
+      <created>1483585217336</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1483585217336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -750,7 +670,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19261000" />
+    <option name="totallyTimeSpent" value="19536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-9" width="1938" height="1050" extended-state="0" />
@@ -817,6 +737,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RedisTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="RedisTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1174,8 +1098,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/solverpeng/cache/impl/RedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.90799">
+        <state vertical-scroll-proportion="0.0">
           <caret line="391" column="0" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/redis.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
